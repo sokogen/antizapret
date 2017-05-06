@@ -53,7 +53,7 @@ def vaiting_clearing():
 		if count > 0:
 			time.sleep(2)
 		if cicles > 100:
-			print("Something went wrong... I`ll start one more copy of cleaner.")
+			print("WARNING: Something went wrong... I`ll start one more copy of cleaner.")
 			clearing_router()
 
 def writing_new_list(iplist):
